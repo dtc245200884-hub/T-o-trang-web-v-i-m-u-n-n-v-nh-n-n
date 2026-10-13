@@ -1,0 +1,40 @@
+```css
+/* Màu nền toàn trang */
+body {
+    background-color: #f0f8ff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+/* Tiêu đề */
+h1 {
+    color: #1e40af;
+}
+
+/* Khối nội dung có ảnh nền */
+.important {
+    background-color: #ffffff;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    min-height: 250px;
+    margin: 30px auto;
+    padding: 30px;
+    max-width: 700px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    border-radius: 12px;
+    border: 2px solid #2563eb;
+}
+```
